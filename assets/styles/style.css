@@ -9,7 +9,7 @@ header {
   background: url("../images/index-background-desktop.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain; 
+  background-size: contain;
   position: relative;
 }
 
@@ -78,4 +78,92 @@ header {
   font-size: 15px;
   color: aliceblue;
   text-transform: uppercase;
+}
+
+#cards {
+  width: 80%;
+  margin: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#cards .card {
+  width: 40%;
+  padding: 2%;
+  background: #F2F2F2;
+}
+
+#cards .card .title {
+  display: flex;
+  align-items: center;
+
+}
+
+#cards .card .title h3 {
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+#cards .card .text p {
+  margin: 20px 0;
+}
+
+#cards .card .text a {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#how-job {
+  width: 80%;
+  margin: 10%;
+}
+
+#how-job h2 {
+  margin-left: 40px;
+  height: 60px;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+#how-job .items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#how-job .items .item {
+  width: 20%;
+  position: relative;
+  display: flex;
+  height: 280px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#how-job .items .item img {
+  background: #68B738;
+  padding: 20px;
+}
+
+#how-job .items .item b {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 280px;
+  color: #F2F2F2;
+  z-index: -1;
+}
+
+#location {
+  display: hidden;
+  height: 400px;
+}
+
+#location img {
+  width: 100%;
 }

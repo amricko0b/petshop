@@ -1,34 +1,124 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CAT ENERGY</title>
-    <link rel="stylesheet" href="assets/styles/style.css" />
-  </head>
-  <body>
-    <header>
-      <div id="nav">
-        <img src="assets/images/logo-desktop.png" alt="CAT ENERGY" />
-        <ul>
-          <li>Главная</li>
-          <li>Каталог Продукции</li>
-          <li>Подбор Программы</li>
-        </ul>
-      </div>
 
-      <div class="container">
-        <p class="title">Функциональное питание для котов</p>
-        <p>Занялся собой? Займись котом!</p>
-        <button>подобрать программу</button>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAT ENERGY</title>
+  <link rel="stylesheet" href="assets/styles/style.css" />
+</head>
 
-      <img src="assets/images/index-can.png" id="header-photo" />
-    </header>
+<body>
+  <header>
+    <div id="nav">
+      <img src="assets/images/logo-desktop.png" alt="CAT ENERGY" />
+      <ul>
+        <li>Главная</li>
+        <li>Каталог Продукции</li>
+        <li>Подбор Программы</li>
+      </ul>
+    </div>
 
-    <article></article>
+    <div class="container">
+      <p class="title">Функциональное питание для котов</p>
+      <p>Занялся собой? Займись котом!</p>
+      <button>подобрать программу</button>
+    </div>
 
-    <footer></footer>
-  </body>
+    <img src="assets/images/index-can.png" id="header-photo" />
+  </header>
+
+  <article>
+    <div id="cards">
+
+      <section class="card">
+        <section class="title"><img src="assets/images/cat-left.png" alt="">
+          <h3>похудение</h3>
+        </section>
+        <section class="text">
+          <p>Ваш кот весит больше собаки и почти утратил способность
+            лазить по деревьям? Пора на диету! Cat Energy Slim поможет
+            вашему питомцу сбросить лишний вес.</p>
+          <a href="">Каталог Slim →</a>
+        </section>
+      </section>
+
+      <section class="card">
+        <section class="title"><img src="assets/images/cat-right.png" alt="">
+          <h3>набор массы</h3>
+        </section>
+        <section class="text">
+          <p>Заработать авторитет среди дворовых котов и даже собак?
+            Серия Cat Energy Pro поможет вашему коту нарастить
+            необходимые мышцы!</p>
+          <a href="">Каталог Pro →</a>
+        </section>
+      </section>
+
+    </div>
+
+    <div id="how-job">
+      <h2>Как это работает</h2>
+      <section class="items">
+        <section class="item">
+          <img src="assets/images/icon-leaf.png" alt="">
+          <p>Функциональное питание
+            содержит только полезные
+            питательные вещества.</p>
+          <b>1</b>
+        </section>
+
+        <section class="item">
+          <img src="assets/images/icon-tub.png" alt="">
+          <p>Выпускается в виде порошка,
+            который нужно лишь залить
+            кипятком и готово.</p>
+          <b>2</b>
+        </section>
+
+        <section class="item">
+          <img src="assets/images/icon-eat.png" alt="">
+          <p>Замените один-два приема
+            обычной еды на наше
+            функциональное питание.</p>
+          <b>3</b>
+        </section>
+
+        <section class="item">
+          <img src="assets/images/icon-alarm.png " alt="">
+          <p>Уже через месяц наслаждайтесь
+            изменениями к лучшему
+            вашего питомца!</p>
+          <b>4</b>
+        </section>
+      </section>
+    </div>
+
+    <div id="live-example">
+      <section class="text">
+        <h2>Живой пример</h2>
+        <p>Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
+        <section id="data"/>
+        <p class="result">
+          Затраты на питание
+          <span>15 000 руб.</span>
+        </p>
+      </section>
+
+      <section class="example">
+        <img src="assets/images/before-desktop.png" alt="">
+        <form>
+          <p>Было</p>
+          <input type="range" max="100" min="0"/>
+          <p>Стало</p>
+        </form>
+      </section>
+    </div>
+
+  </article>
+
+  <footer></footer>
+</body>
+
 </html>
